@@ -235,6 +235,7 @@ class SolanaHypeBot:
         return random.uniform(2, 6) * 3600
 
     def run(self):
+        global TWEETS_PER_DAY
         print("=" * 60)
         print("🚀 SOLANA HYPE BOT")
         print("=" * 60)
@@ -249,7 +250,6 @@ class SolanaHypeBot:
                     print(f"\n📅 New day! Yesterday: {self.tweets_today} tweets")
                     self.tweets_today = 0
                     self.last_tweet_date = current_date
-                    global TWEETS_PER_DAY
                     TWEETS_PER_DAY = random.randint(3, 5)
                     print(f"🎯 Today: {TWEETS_PER_DAY} tweets\n")
 
