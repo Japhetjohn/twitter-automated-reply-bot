@@ -1,16 +1,16 @@
 #!/bin/bash
-# Quick start script for Twitter bot (Free Tier Optimized)
-
 cd "$(dirname "$0")"
 
 echo "============================================================"
-echo "🔗 Twitter Bot for Blockchain Developers (FREE TIER)"
-echo "Account: @gracejaphet_"
+echo "🚀 SOLANA HYPE BOT"
+echo "============================================================"
+echo ""
+echo "📊 Posts 3-5 unique tweets per day"
+echo "💜 100% Solana-focused"
+echo "🎯 Engagement-optimized"
+echo ""
 echo "============================================================"
 echo ""
 
-# Activate virtual environment
 source venv/bin/activate
-
-# Run the bot
-python twitter-bot.py
+python solana-hype-bot.py
