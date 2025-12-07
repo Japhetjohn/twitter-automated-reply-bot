@@ -1,0 +1,58 @@
+{
+  "categories": [
+    {
+      "name": "product_spotlight",
+      "weight": 0.25,
+      "description": "Highlight specific Novastaq products, their features, use cases, and technical innovations. Focus on concrete value propositions rather than marketing hype.",
+      "guidance": "Lead with the problem being solved, then explain how the product addresses it. Be specific about technical details and real-world applications.",
+      "examples": [
+        "Velcro's WhatsApp integration lets users send payments without leaving their chat app. No downloads, no new accounts, just instant transactions where conversations happen.",
+        "BitNova handles crypto payments through shareable links. Send USDC to anyone with a URL. They click, connect wallet, done. P2P without the friction.",
+        "Stakepadi predictions settle on-chain with transparent proofs. Every outcome is verifiable. That is the difference between a prediction market and a gambling platform.",
+        "Tsara provides the settlement layer that fintechs need but should not have to build themselves. Fiat and crypto rails, compliance, risk monitoring. Infrastructure as a service.",
+        "Criptpay turns any merchant into a crypto-accepting business. API integration takes minutes. Payment links work immediately. QR codes for physical stores. No blockchain expertise required."
+      ]
+    },
+    {
+      "name": "tech_engineering",
+      "weight": 0.25,
+      "description": "Share technical insights about blockchain, software development, system architecture, Web3 technology, and engineering best practices. Educational but authoritative.",
+      "guidance": "Make one clear technical point. Explain why it matters for real applications. Avoid jargon where possible, but do not dumb down the content.",
+      "examples": [
+        "Solana's parallel transaction processing enables 65,000 TPS with 400ms block times. For payment applications in Africa, that speed is the difference between usable and theoretical.",
+        "Smart contracts are not inherently trustless. They are transparently verifiable. Trust comes from being able to audit the code and verify on-chain execution.",
+        "Building on Layer 1s like Solana versus Layer 2s is a trade-off. L1s offer direct security and simplicity. L2s offer Ethereum compatibility. Choose based on your actual constraints.",
+        "API design for payment systems requires idempotency. The same request sent twice should produce the same result. Otherwise, network retries cause duplicate charges.",
+        "Stablecoins pegged to USD work well in African markets because they combine dollar stability with crypto's instant settlement and low fees."
+      ]
+    },
+    {
+      "name": "startup_business",
+      "weight": 0.20,
+      "description": "Share insights about building startups, product-market fit, business strategy, growth, and lessons learned from operating in African tech markets.",
+      "guidance": "Focus on real lessons and actionable insights. Avoid motivational platitudes. Be honest about challenges and trade-offs.",
+      "examples": [
+        "Product-market fit is not a milestone you reach. It is a state you maintain. Markets shift, user needs evolve, competition adapts. Keep listening and iterating.",
+        "In African fintech, regulatory compliance is not a feature you add later. It is foundational architecture. Build it in from day one or rebuild everything later.",
+        "Most startups fail from lack of distribution, not lack of product quality. Building is necessary but not sufficient. Solve for how people discover and adopt.",
+        "Pivot sounds dramatic but usually means listening to what users actually need versus what you assumed they wanted. The best pivots feel obvious in retrospect.",
+        "African markets often leapfrog traditional infrastructure. Mobile money proved it. Web3 payments could follow the same pattern if we focus on solving real problems."
+      ]
+    },
+    {
+      "name": "thought_leadership",
+      "weight": 0.30,
+      "description": "Share perspectives on the future of payments, Web3 adoption, African tech ecosystem, digital infrastructure, and industry trends. Be thought-provoking and insightful.",
+      "guidance": "Make bold but defensible claims. Support with reasoning or data. Be specific about what you believe and why. Avoid generic predictions.",
+      "examples": [
+        "Africa does not need to replicate Western financial infrastructure. It needs infrastructure designed for mobile-first, cash-heavy, cross-border economies. Different problems, different solutions.",
+        "Blockchain adoption in Africa will not come from crypto evangelism. It will come from solving payment friction, remittance costs, and financial access. Utility drives adoption.",
+        "The next wave of African tech will come from founders building for local markets first, global markets second. Flutterwave and Paystack proved the model.",
+        "Prediction markets can replace unregulated betting platforms with transparent, on-chain alternatives. Same engagement, better trust, regulatory clarity.",
+        "Web3 infrastructure is not just about decentralization. It is about programmable money, composable systems, and global settlement networks. Those properties solve real problems.",
+        "Most fintech innovation focuses on the banked middle class. The larger opportunity is building for the 60 percent of Africans without bank accounts.",
+        "Stablecoins are becoming the de facto digital dollar in emerging markets. Not because of ideology, but because they work better than alternatives for cross-border value transfer."
+      ]
+    }
+  ]
+}

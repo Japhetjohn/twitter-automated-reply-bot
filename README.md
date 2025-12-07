@@ -1,139 +1,133 @@
-# 🔗 Twitter Bot for Blockchain Developers (FREE TIER)
+# Novastaq AI Twitter Bot
 
-Automated Twitter bot for blockchain devs - optimized for FREE TIER (50 tweets/month limit)
+Intelligent Twitter bot for Novastaq Technologies powered by Hugging Face AI. Automatically generates and posts professional tweets about Novastaq products, Web3 technology, and African tech ecosystem.
 
-## 🎯 What It Does
+## Features
 
-- **70% Replies** - Responds to blockchain/crypto/web3 tweets
-- **30% Retweets** - Shares relevant content
-- **NO Original Tweets** - Conserves API usage
+- AI-powered tweet generation using Hugging Face LLM (free tier)
+- 4 content categories: Product spotlight, Tech insights, Business wisdom, Thought leadership
+- Smart scheduling: 3-5 tweets per day with 2-6 hour gaps
+- No night posting (sleeps from 11 PM to 8 AM)
+- Automatic duplicate prevention with tweet history
+- Natural, professional language (no emojis, no bullet points)
+- 5 length variations: very short to very long (50-280 characters)
 
-**FREE TIER OPTIMIZED:**
-- 2 actions per day max
-- 45 actions per month limit (safely under 50)
-- 5-15 minute delays between actions
-- Uses Twitter API v2 (free tier compatible)
-- Tracks daily and monthly usage
+## Setup
 
-## 🚀 Quick Start
+### Prerequisites
 
-1. **Install dependencies:**
+- Python 3.8+
+- Twitter Developer Account with API credentials
+- Hugging Face account with API token
+
+### Installation
+
+1. Clone or download the repository
+
+2. Create virtual environment
 ```bash
 python3 -m venv venv
 source venv/bin/activate
+```
+
+3. Install dependencies
+```bash
 pip install -r requirements.txt
 ```
 
-2. **Setup credentials:**
-Create a `.env` file with your Twitter API credentials:
-```env
-TWITTER_API_KEY=your_api_key
-TWITTER_API_SECRET=your_api_secret
-TWITTER_ACCESS_TOKEN=your_access_token
-TWITTER_ACCESS_TOKEN_SECRET=your_access_token_secret
-TWITTER_BEARER_TOKEN=your_bearer_token
-```
+4. Configure credentials - Create `.env` file:
 
-3. **Run the bot:**
 ```bash
-./start-bot.sh
+# Twitter API Credentials
+TWITTER_API_KEY=your_api_key_here
+TWITTER_API_SECRET=your_api_secret_here
+TWITTER_ACCESS_TOKEN=your_access_token_here
+TWITTER_ACCESS_TOKEN_SECRET=your_access_token_secret_here
+TWITTER_BEARER_TOKEN=your_bearer_token_here
+
+# Hugging Face API
+HF_TOKEN=your_hf_token_here
+HF_MODEL=meta-llama/Llama-3.3-70B-Instruct
+HF_TEMPERATURE=0.7
+HF_MAX_TOKENS=150
 ```
 
-## 🔑 Getting Twitter API Credentials
+## Usage
 
-1. Go to https://developer.twitter.com/en/portal/dashboard
-2. Create a new App
-3. Get these credentials:
-   - API Key (Consumer Key)
-   - API Secret (Consumer Secret)
-   - Access Token
-   - Access Token Secret
-   - Bearer Token
+### Run the Bot
+```bash
+python solana-hype-bot.py
+```
 
-**Note:** Free tier only allows 50 tweets/month. This bot is optimized for that limit.
+### Run in Background
+```bash
+nohup python solana-hype-bot.py > bot.log 2>&1 &
+```
 
-## ✅ Pre-Configured Features
+### Stop Background Bot
+```bash
+pkill -f solana-hype-bot.py
+```
 
-### 50+ Blockchain/Web3 Keywords
-- Major chains: ethereum, solana, bitcoin, cardano, polygon, avalanche
-- L2s: arbitrum, optimism, zksync, starknet
-- DeFi: uniswap, aave, compound
-- Dev tools: solidity, rust, blockchain development
-- Topics: smart contracts, gas optimization, web3 dev
-
-### 40+ Engaging Reply Templates
-- "This is actually a solid approach 🔥"
-- "WAGMI 💪"
-- "Facts bro 💯"
-- "Love the gas efficiency approach 💰"
-- And 35+ more natural, engaging replies
-
-## 📁 Files
+## Project Structure
 
 ```
 twitter-bot/
-├── twitter-bot.py        ← Main bot (API v2)
-├── start-bot.sh         ← Start script
-├── test-credentials.py  ← Test your API
-├── requirements.txt     ← Dependencies
-└── README.md            ← This file
+├── solana-hype-bot.py       # Main bot
+├── grok_client.py            # LLM API client
+├── knowledge_base.py         # Content manager
+├── prompt_builder.py         # Prompt engineer
+├── knowledge/                # Data directory
+│   ├── products.json
+│   ├── brand_voice.json
+│   ├── content_categories.json
+│   └── whitepaper_data.json
+├── test_run.py              # Test posting
+├── requirements.txt         # Dependencies
+├── .env                     # Credentials
+└── README.md               # Documentation
 ```
 
-## 📊 How It Works
+## Configuration
 
-```
-Search tweets → Filter → Random selection → Reply/Retweet
-     ↓            ↓            ↓                ↓
-  API v2    Your own    30% of tweets    70% reply
-  search     tweets      selected        30% retweet
-             excluded
+Edit posting frequency in `solana-hype-bot.py`:
+```python
+TWEETS_PER_DAY = random.randint(3, 5)
 ```
 
-## ⚠️ Important
+Change AI model in `.env`:
+```bash
+HF_MODEL=meta-llama/Llama-3.3-70B-Instruct
+```
 
-### FREE Tier Limits
-- **50 tweets/month** write limit
-- Bot does **2 actions/day** = ~60/month
-- Auto-stops at **45/month** to stay safe
+Adjust creativity in `.env`:
+```bash
+HF_TEMPERATURE=0.7  # 0.0-1.0
+```
 
-### Rate Limits
-- Search: 10 requests per 15 minutes
-- Bot auto-handles limits and sleeps when needed
+## Content Categories
 
-### Security
-- **NEVER commit .env file** - it has your API keys!
-- The `.gitignore` protects your secrets
-- Keep your credentials private
+1. Product Spotlight (25%) - Novastaq products
+2. Tech/Engineering (25%) - Technical insights
+3. Startup/Business (20%) - Business wisdom
+4. Thought Leadership (30%) - Industry trends
 
-## 🔥 Features
+## Tweet Lengths
 
-- ✅ Twitter API v2 compatible (free tier)
-- ✅ Random 5-15 minute delays
-- ✅ Daily and monthly tracking
-- ✅ Auto-stops at limits
-- ✅ Filters own tweets
-- ✅ No duplicates
-- ✅ Natural, human-like behavior
+- Very Short (50-100 chars)
+- Short (100-150 chars)
+- Medium (150-200 chars)
+- Long (200-250 chars)
+- Very Long (250-280 chars)
 
-## 🆘 Troubleshooting
+## Troubleshooting
 
-| Problem | Solution |
-|---------|----------|
-| "403 Forbidden" | You need API v2 access (free tier has this) |
-| "Rate limit exceeded" | Normal! Bot will sleep and retry |
-| "Daily limit reached" | Working as intended, resumes tomorrow |
-| Import errors | Run `pip install -r requirements.txt` |
+**Missing credentials**: Verify all keys in `.env`
 
-## ⚖️ Legal Notice
+**API errors**: Check internet and HF token validity
 
-For legitimate use only:
-- ✅ Personal brand building
-- ✅ Developer engagement
-- ✅ Community participation
-- ❌ Spam or manipulation
+**Repetitive tweets**: Lower temperature in `.env`
 
-Use responsibly and comply with Twitter's Terms of Service.
+## License
 
----
-
-**Ready to go!** Just configure `.env` and run `./start-bot.sh` 🚀
+Proprietary - Novastaq Technologies Inc.

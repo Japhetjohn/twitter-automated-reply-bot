@@ -1,0 +1,129 @@
+{
+  "products": [
+    {
+      "name": "Velcro",
+      "handle": "@usevelcro",
+      "tagline": "Multi-currency fintech engine for instant payments",
+      "description": "A multi-currency fintech platform offering instant payments, bill settlements, cards, and a WhatsApp bot that lets users transact directly inside chats.",
+      "key_features": [
+        "Instant multi-currency payments",
+        "Bill payment settlements",
+        "Virtual and physical cards",
+        "WhatsApp payment automation",
+        "Real-time transaction processing"
+      ],
+      "use_cases": [
+        "Cross-border payments in Africa",
+        "Bill payments and settlements",
+        "WhatsApp-based transactions",
+        "Multi-currency wallet management"
+      ],
+      "tech_highlights": [
+        "WhatsApp bot integration for frictionless payments",
+        "Multi-currency support",
+        "Instant settlement infrastructure"
+      ]
+    },
+    {
+      "name": "BitNova",
+      "handle": "@bitnova_africa",
+      "tagline": "Crypto-first P2P and payment automation platform",
+      "description": "A crypto-first P2P and payment automation platform supporting receive/send crypto via link, bill payments, airtime/data, and cash-to-crypto solutions.",
+      "key_features": [
+        "Receive crypto via payment links",
+        "Send crypto via shareable links",
+        "Bill payments with crypto",
+        "Airtime and data purchases",
+        "Cash to crypto on-ramp",
+        "Wallet integrations"
+      ],
+      "use_cases": [
+        "P2P crypto transfers",
+        "Converting fiat to crypto easily",
+        "Paying bills with cryptocurrency",
+        "Sharing payment links for collections"
+      ],
+      "tech_highlights": [
+        "Link-based crypto transactions",
+        "P2P payment automation",
+        "Seamless fiat-to-crypto rails"
+      ]
+    },
+    {
+      "name": "Stakepadi",
+      "handle": "@stakepadi",
+      "tagline": "Web3-powered prediction market platform",
+      "description": "A Web3-powered prediction market where users predict real-world events using USDC, stablecoins, and fiat payments. Bridges traditional audiences with Web3 through safe, transparent, trustless predictions.",
+      "key_features": [
+        "USDC and stablecoin predictions",
+        "Fiat payment support for non-crypto users",
+        "On-chain transparency and proofs",
+        "Multi-category predictions (sports, elections, markets, pop culture)",
+        "Regulatory-friendly design",
+        "Community-driven platform"
+      ],
+      "use_cases": [
+        "Predicting sports outcomes",
+        "Election and political event predictions",
+        "Market trend forecasting",
+        "Pop culture event betting"
+      ],
+      "tech_highlights": [
+        "Trustless on-chain proofs",
+        "Hybrid fiat and crypto support",
+        "Regulatory compliance infrastructure",
+        "Transparent prediction markets"
+      ]
+    },
+    {
+      "name": "Tsara",
+      "handle": "@usetsara",
+      "tagline": "Hybrid settlement and compliance infrastructure",
+      "description": "A hybrid settlement and compliance infrastructure for both fiat and crypto. Provides fiat-to-crypto settlement rails, merchant payout infrastructure, on-chain and off-chain compliance, secure KYC/KYB pipelines, and risk monitoring for fintechs.",
+      "key_features": [
+        "Fiat to crypto settlement rails",
+        "Merchant payout infrastructure",
+        "On-chain and off-chain compliance",
+        "Secure KYC/KYB pipelines",
+        "Risk monitoring for fintechs",
+        "API rails for app integration"
+      ],
+      "use_cases": [
+        "Enterprise settlement needs",
+        "Merchant payment processing",
+        "Compliance and risk management",
+        "Hybrid fiat-crypto clearance"
+      ],
+      "tech_highlights": [
+        "Backbone layer for P2P and enterprise flows",
+        "Dual compliance (fiat + crypto)",
+        "Secure identity verification",
+        "API-first architecture"
+      ]
+    },
+    {
+      "name": "Criptpay",
+      "handle": "@criptpay",
+      "tagline": "Crypto payment gateway for merchants",
+      "description": "A crypto payment gateway enabling online and offline merchants to accept USDT, USDC, BTC, and SOL effortlessly via API, payment links, or QR codes.",
+      "key_features": [
+        "Accept USDT, USDC, BTC, and SOL",
+        "API integration for developers",
+        "Payment links for easy sharing",
+        "QR code payments for offline merchants",
+        "Instant crypto settlements"
+      ],
+      "use_cases": [
+        "E-commerce crypto payments",
+        "Physical store crypto acceptance",
+        "Invoice payments with cryptocurrency",
+        "Subscription billing in crypto"
+      ],
+      "tech_highlights": [
+        "Multi-currency crypto support",
+        "Simple API integration",
+        "QR code and link-based payments"
+      ]
+    }
+  ]
+}

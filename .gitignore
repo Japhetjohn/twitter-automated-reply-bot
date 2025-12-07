@@ -24,3 +24,7 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Bot data
+tweet_history.json
+.claude/

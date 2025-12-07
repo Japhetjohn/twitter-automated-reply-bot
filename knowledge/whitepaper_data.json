@@ -1,0 +1,100 @@
+{
+  "overview": "Novastaq Technologies Inc is a modern African technology company building intelligent Web2 and Web3 solutions, from payment systems to digital agencies to high-impact blockchain products. We design and deploy software, financial infrastructure, and decentralized tools that empower businesses, creators, and everyday users to interact seamlessly with the digital economy.",
+
+  "mission": "To build reliable, scalable, and user-centric digital infrastructure for payments, products, and Web3 systems across Africa.",
+
+  "vision": "To become Africa's leading technology powerhouse by merging functional Web2 solutions with the emerging blockchain-powered future.",
+
+  "core_problems": [
+    "High barriers to accessing quality tech development in Africa",
+    "Inefficient payment and settlement processes",
+    "Limited crypto and fiat interoperability",
+    "Unregulated prediction platforms",
+    "Poor-quality product execution",
+    "Widening technology adoption gap"
+  ],
+
+  "dual_stack_approach": {
+    "web2_engineering": [
+      "App and web development",
+      "UI/UX and product design",
+      "Social media and content management",
+      "Payment gateway integration",
+      "Digital asset ramping (PayPal, Zelle, crypto)",
+      "API development for SMEs"
+    ],
+    "web3_infrastructure": [
+      "Smart contracts",
+      "Blockchain apps (Solana, Ethereum, L2s)",
+      "Tokenized systems",
+      "Crypto payment rails",
+      "Web3 strategy and deployment",
+      "Hybrid finance apps"
+    ]
+  },
+
+  "market_opportunity": {
+    "crypto_adoption": "Africa leads global crypto P2P adoption",
+    "stablecoin_usage": "Stablecoins are becoming the top digital payment method in Africa",
+    "prediction_markets": "Prediction markets are exploding globally",
+    "settlement_demand": "Businesses desperate for hybrid settlement solutions",
+    "web3_talent": "Web3 talent and infrastructure demand is rising",
+    "sme_digitization": "Over 70 percent of SMEs require digital transformation"
+  },
+
+  "competitive_advantages": [
+    "Multi-product ecosystem under one umbrella",
+    "Africa-focused but globally scalable",
+    "Strong expertise in both Web2 and Web3",
+    "Deep involvement in Solana ecosystem",
+    "Real-world utility products, not hype",
+    "Fast execution culture",
+    "Hybrid settlement infrastructure (unique advantage)"
+  ],
+
+  "technical_architecture": {
+    "frontend": ["React", "Next.js", "Flutter"],
+    "backend": ["Node.js"],
+    "blockchain": ["Solana", "Ethereum", "Layer 2s"],
+    "infrastructure": ["Microservices", "AWS", "Vercel", "Cloudflare"],
+    "security": ["Webhooks", "API orchestration", "Secure encryption", "Compliance frameworks"]
+  },
+
+  "business_model": [
+    "Development contracts",
+    "Product subscriptions",
+    "Transaction fees (Velcro, BitNova, Criptpay)",
+    "Settlement fees (Tsara)",
+    "Prediction market fees (Stakepadi)",
+    "API licensing",
+    "Technical consulting"
+  ],
+
+  "key_insights": [
+    "Africa is positioned to leapfrog traditional financial infrastructure with Web3, similar to how mobile money succeeded",
+    "Hybrid fiat-crypto infrastructure is essential for mainstream adoption",
+    "Regulatory compliance must be built in from the start, not added later",
+    "Real utility drives adoption more than crypto evangelism",
+    "African markets need infrastructure designed for mobile-first, cash-heavy, cross-border economies"
+  ],
+
+  "solana_focus": {
+    "why_solana": "Solana provides 400ms block times, 65,000+ TPS capacity, and transaction costs under $0.01, making it ideal for payment applications in African markets where speed and affordability are critical",
+    "use_cases": [
+      "Instant cross-border payments",
+      "Micro-transaction support",
+      "High-frequency trading and predictions",
+      "Real-time settlement for merchants"
+    ]
+  },
+
+  "web3_education_topics": [
+    "Blockchain basics and benefits",
+    "Stablecoin utility in emerging markets",
+    "DeFi vs traditional finance",
+    "Smart contract transparency",
+    "On-chain verification and trust",
+    "P2P payment advantages",
+    "Crypto-fiat interoperability"
+  ]
+}
